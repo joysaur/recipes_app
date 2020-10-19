@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+### Added Sessions Controller for authentication
+- Using bcrypt gem to use has_secure_password in User model
+- session[:user_id] cookie to store the user id
