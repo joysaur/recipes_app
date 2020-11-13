@@ -27,3 +27,7 @@ Things you may want to cover:
 ### Added Sessions Controller for authentication
 - Using bcrypt gem to use has_secure_password in User model
 - session[:user_id] cookie to store the user id
+- User model - added validation for email address presence
+- Created a controller for Users
+- Created a new.html.erb file for Users
+
