@@ -8,8 +8,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       flash[:success]  = 'User successfully saved'
+      redirect_to @user
     else
       flash[:error] = "User was unable to be saved."
+      render 'new'
     end
   end
 
